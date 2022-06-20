@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+.cantainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.main_wrapper {
+    background-color: aliceblue;
+    height: auto;
+}
+
+.ative {
+    color: green !important;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+}
+
+.header_class {
+    justify-content: space-between;
+}
+
+.logo_info {
+    background-color: black;
+    padding: 30px;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_nav a {
+    color: aliceblue;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.left_side {
+    padding-right: 50px;
+}
+
+.right_side {
+    padding-left: 50px;
+}
+
+.main_wrapper .left_side .bolg_img {
+    width: 100%;
+}
+
+.main_wrapper .left_side .bolg_img img {
+    width: 100%;
+}
+
+.left_side .blog_info h2 {
+    font-size: 30px;
+}
+
+.left_side .blog_info button {
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 30px;
+    border: 2px solid gray;
+    margin: 30px 0;
+}
+
+.main_wrapper .left_side .bolg2_img {
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+
+.main_wrapper .left_side .bolg2_img img {
+    height: 300px;
+}
+
+.main_wrapper .main_section {
+    display: flex;
+}
+
+.category_title {
+    margin: 40px 0 0;
+}
+
+.right_side .category_title h3 {
+    font-size: 20px;
+    height: 45px;
+    padding: 10px;
+    background-color: rgba(215, 239, 250, 0.548);
+    border-left: 3px solid green
+}
+
+.category_info {
+    padding: 25px 0;
+}
+
+.category_info input {
+    font-size: 25px;
+}
+
+.category_inof {
+    padding: 25px 0;
+}
+
+.category_inof input {
+    font-size: 25px;
+}
+
+.prev_next_btn {
+    justify-content: space-between;
+    /* padding: 30px; */
+    display: flex;
+}
+
+.prev_next_btn button {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer_logo {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.coppy_wright {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.social_icons a {
+    font-size: 25px;
+    padding: 10px 0 0 0;
+    text-decoration: none;
+}
